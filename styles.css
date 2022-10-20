@@ -1,0 +1,207 @@
+html {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    justify-content: center;
+}
+
+
+nav a {
+    width: 200px;
+    color: white;
+    size: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 15px;
+    justify-content: center; 
+    margin: 556px;
+    
+    
+}
+
+nav a:hover {
+    background-color: #007D7B;
+    color: #FFF;
+}
+
+h2 {
+    size: 40px;
+    color: black;
+}
+
+.heading {
+    display: flex;
+    width: 1000px;
+}
+
+
+.WhiteBlock {
+    background-color: white;
+    width: 1000px;
+    margin: 25px;
+}
+
+#About {
+    display: flex;
+    text-align: right;
+}
+
+#contact {
+    color: white;
+    width: 850px;
+    display: grid;
+    justify-content: center;
+    size: 20px; 
+    margin: 0 auto;
+    padding: 10px;   
+}
+
+input {
+    width: 375px;
+    margin: 10px;
+    background-color:#007D7B;
+    color: #FFF;
+    size: 16px;
+    height: 30px;
+}
+
+#YourName, #YourEmail, #YourMessage {
+    background-color: #FFF;
+    color: #007D7B;
+}
+
+#mySubmit {
+    width: 200px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#contact p{
+    color:white;
+    padding: 5px;
+    justify-content: center;
+    width: 500px;
+}
+
+#contact h2{
+    color:#FFF;
+    margin-left: 233px;
+}
+
+#contact form {
+    display: block;
+    width: 100px;
+    padding: 15px;
+    margin: 15px;
+}
+
+img {
+    width: 325px;
+    position: relative;
+    display: inline-block;
+}
+
+table {
+    position: relative;
+}
+
+#TK {
+    width: 600px;
+    float: right;
+    
+}
+
+footer {
+    color: #FFF;
+    margin-left: 500px;
+
+}
+
+table {
+    width: 850;
+    margin: 5px;
+    height: fit-content;
+}
+
+h1 {
+    color: #007D7B;
+    size: 40px;
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 75px;
+    
+}
+
+
+
+p {
+    size: 16px;
+    color: black;
+    padding: 15px;
+}
+
+p.topleftblack {
+    color: black;
+    position: absolute;
+}
+
+p.toprightblack {
+    color: black;
+    position: absolute;
+    top: 30px;
+    right: 16px;
+}
+
+p.topleftwhite {
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 338px;
+}
+
+p.toprightwhite {
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+p.bottomleftblack  {
+    color: black;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+p.bottomrightblack {
+    color: black;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+p.bottomleftwhite {
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 16px;
+}
+
+p.bottomrightwhite {
+    color: white;
+    position: absolute;
+    top: 160px;
+    right: 195px;
+}
+
