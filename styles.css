@@ -19,7 +19,7 @@ nav li{
 nav a {
     width: 200px;
     color: white;
-    size: 20px;
+   
     list-style: none;
     text-decoration: none;
     font-weight: bold;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 h2 {
-    size: 40px;
+    
     color: black;
 }
 
@@ -45,6 +45,9 @@ h2 {
     width: 1000px;
 }
 
+.hide {
+    font-size: 0px;
+}
 
 .WhiteBlock {
     background-color: white;
@@ -62,7 +65,7 @@ h2 {
     width: 850px;
     display: grid;
     justify-content: center;
-    size: 20px; 
+    
     margin: 0 auto;
     padding: 10px;   
 }
@@ -72,7 +75,7 @@ input {
     margin: 10px;
     background-color:#007D7B;
     color: #FFF;
-    size: 16px;
+    
     height: 30px;
 }
 
@@ -129,14 +132,14 @@ footer {
 }
 
 table {
-    width: 850;
+    width: 850px;
     margin: 5px;
     height: fit-content;
 }
 
 h1 {
     color: #007D7B;
-    size: 40px;
+    
     width: 1000px;
     margin-left: 50px;
     margin-top: 75px;
@@ -146,7 +149,7 @@ h1 {
 
 
 p {
-    size: 16px;
+    
     color: black;
     padding: 15px;
 }
