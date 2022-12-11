@@ -15,6 +15,13 @@ nav li{
     justify-content: center;
 }
 
+.table {
+    width: 1500px;
+}
+
+.gallery {
+    margin: 0 auto;
+}
 
 nav a {
     width: 200px;
@@ -159,7 +166,7 @@ p.topleftblack {
     position: absolute;
 }
 
-p.toprightblack {
+figcaption .toprightblack {
     color: black;
     position: absolute;
     top: 30px;
